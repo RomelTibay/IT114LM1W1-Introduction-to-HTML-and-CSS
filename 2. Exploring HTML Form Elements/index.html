@@ -20,14 +20,17 @@
         <!-- TODO 2.6: Add a year level dropdown. The inital selected value must be "Select an option", but it must not be a valid selection. -->
         
         <!-- TODO 2.7: Add radio buttons that ask which learning mode the user prefers -->
+        <p> Which learningmode is your prefer </p>
         <input type="radio" name="learningMode" id="Online"> 
         <lable form="online"> Online </lable>
         <input type="radio" name="learningMode" id="Face2Face">
-        <lable form="face2face"> Face2Face</lable>
+        <lable form="face2face"> Face2Face</lable> 
+        <p> </p>
         <!-- TODO 2.8: Add check boxes that ask which subjects the user has taken -->
        
         <!-- TODO 2.9: Add a text area that asks the user if they would prefer to be a cactus or a shark -->
-        
+        <label for="preference">Would you prefer to be a cactus or a shark?</label>
+        <textarea id="preference" name="preference" rows="4" cols="50" placeholder="Type your preference here..."></textarea>
         <!-- TODO 2.10: Add a submit button -->
         <input type="submit" value="Submit" />
     </form>
